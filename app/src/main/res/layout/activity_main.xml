@@ -29,11 +29,18 @@
             android:text="Enter yours name" />
 
         <Button
-            android:id="@+id/switchLayout"
+            android:id="@+id/buttonSwitch1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Activity2"
             android:onClick="ButtonClick_switch1"/>
+
+        <Button
+            android:id="@+id/buttonCalc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculator"
+            android:onClick="ButtonClick_calc"/>
 
         <Switch
             android:id="@+id/switch1"
